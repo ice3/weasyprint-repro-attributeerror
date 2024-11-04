@@ -1,0 +1,79 @@
+.table-col-1-6 {
+    background-color: rgba(241, 244, 255, 1);
+}
+
+
+
+
+.new-page {
+    page-break-before: always
+}
+
+.debug {
+    background-color: red;
+    border: solid black 2px;
+}
+
+body {
+    color: #1d2366;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+@page {
+    size: A4;
+    /* Change from the default size of A4 */
+    margin: 0mm;
+    /* Set margin on each page */
+}
+
+.a4 {
+    size: A4 portrait;
+    /* Reflect the paper width in the screen rendering (must match size from @page rule) */
+    width: 21cm;
+    /* Reflect the paper height in the screen rendering (must match size from @page rule) */
+    min-height: 29.7cm;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+
+
+* {
+    /* Include the content box as well as padding and border for precise definitions */
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
